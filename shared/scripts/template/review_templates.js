@@ -135,7 +135,7 @@ function getDeleteOrNotTemplate(review_id){
             <img class="profile_img" src="./assets/icons/error_circle_red.svg" alt="" srcset="">
             <h2 class="text_a_c">Bewertung unwideruflich löschen?</h2>
             <div class="d_flex_cc_gm f_d_r_resp_c w_full">
-                <button onclick="deleteReview(${review_id})" class="std_btn btn_delete pad_s">löschen</button>
+                <button type="button" onclick="deleteReview(${review_id})" class="std_btn btn_delete pad_s">löschen</button>
                 <button onclick="closeDialog('order_dialog')" class="std_btn btn_secondary pad_s">abbrechen</button>
             </div>
         </div>
