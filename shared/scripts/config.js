@@ -1,16 +1,19 @@
 const GUEST_LOGINS = {
-    customer : {
+    customer: {
         username: 'andrey',
         password: 'asdasd'
     },
-    business : {
+    business: {
         username: 'kevin',
         password: 'asdasd24'
     }
 }
 
-const API_BASE_URL = 'http://127.0.0.1:8000/api/';
-const STATIC_BASE_URL = 'http://127.0.0.1:8000/';
+//const API_BASE_URL = 'http://127.0.0.1:8000/api/';
+//const STATIC_BASE_URL = 'http://127.0.0.1:8000/';
+const API_BASE_URL = 'https://v2202411136713300836.megasrv.de/api/';
+const STATIC_BASE_URL = 'https://v2202411136713300836.megasrv.de/';
+const MEDIA_BASE_URL = 'https://v2202411136713300836.megasrv.de/media/';
 
 
 const LOGIN_URL = 'login/';

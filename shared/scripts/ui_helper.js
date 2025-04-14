@@ -84,12 +84,9 @@ function formatDate(dateString) {
 
 function getPersonImgPath(filepath) {
     if (filepath) {
-        if (filepath.startsWith('http')) {
-            return filepath
-        } else {
-            return STATIC_BASE_URL + filepath
-        }
-    } else {
+        return filepath.replace('http://127.0.0.1:8000', 'https://v2202411136713300836.megasrv.de');
+    }
+    else {
         return "./assets/icons/profile_pic.svg"
     }
 }
